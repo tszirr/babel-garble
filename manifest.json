@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Babel Garble",
+  "description": "This extension translates texts word by word to assist in learning of new languages, building an incremental database of learnt words",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "logoc.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "https://glosbe.com/"
+  ]
+}
